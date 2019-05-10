@@ -1,5 +1,5 @@
 /**
- * kElytra
+ * mpElytra
  * Copyright © 2019 Mikołaj Parczewski
  */
 
