@@ -1,6 +1,6 @@
 /**
  * kElytra
- * Copyright © 2019 Miko³aj Parczewski
+ * Copyright Â© 2019 MikoÅ‚aj Parczewski
  */
 
 package me.mparczewski.mpElytra;
