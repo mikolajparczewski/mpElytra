@@ -21,7 +21,7 @@ public class EntityDeath implements Listener {
 		
 		if(e.getEntity().getType() == EntityType.SHULKER) {
 			
-			if(new Random().nextInt(100) <= 49) {
+			if(new Random().nextInt(99) <= 49) {
 				
 				e.getDrops().add(new ItemStack(Material.ELYTRA, 1));
 				
