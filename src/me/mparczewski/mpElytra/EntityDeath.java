@@ -18,17 +18,6 @@ public class EntityDeath implements Listener {
 	
 	@EventHandler
 	public void onEntityDeath(EntityDeathEvent e) {
-		
-		if(e.getEntity().getType() == EntityType.SHULKER) {
-			
-			if(new Random().nextInt(99) <= 49) {
-				
-				e.getDrops().add(new ItemStack(Material.ELYTRA, 1));
-				
-			}
-			
-		}
-		
+		if((e.getEntity().getType() == EntityType.SHULKER) && (new Random().nextInt(99) <= 49)) e.getDrops().add(new ItemStack(Material.ELYTRA, 1));
 	}
-
 }
