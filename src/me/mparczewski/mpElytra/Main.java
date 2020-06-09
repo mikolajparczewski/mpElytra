@@ -1,6 +1,6 @@
 /**
  * mpElytra
- * Copyright © 2019 Mikołaj Parczewski
+ * Copyright © 2020 Mikołaj Parczewski
  */
 
 package me.mparczewski.mpElytra;
@@ -11,11 +11,8 @@ public class Main extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		
 		getServer().getPluginManager().registerEvents(new ProjectileHit(), this);
 		getServer().getPluginManager().registerEvents(new CreatureSpawn(), this);
 		getServer().getPluginManager().registerEvents(new EntityDeath(), this);
-		
 	}
-
 }
