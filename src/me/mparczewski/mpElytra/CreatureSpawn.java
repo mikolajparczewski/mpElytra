@@ -1,6 +1,6 @@
 /**
  * mpElytra
- * Copyright © 2019 Mikołaj Parczewski
+ * Copyright © 2020 Mikołaj Parczewski
  */
 
 package me.mparczewski.mpElytra;
@@ -15,13 +15,6 @@ public class CreatureSpawn implements Listener {
 
 	@EventHandler
 	public void onCreatureSpawn(CreatureSpawnEvent e) {
-		
-		if(e.getEntity().getType() == EntityType.SHULKER) {
-			
-			e.getEntity().removePotionEffect(PotionEffectType.INVISIBILITY);
-			
-		}
-		
+		if(e.getEntity().getType() == EntityType.SHULKER) e.getEntity().removePotionEffect(PotionEffectType.INVISIBILITY);
 	}
-
 }
