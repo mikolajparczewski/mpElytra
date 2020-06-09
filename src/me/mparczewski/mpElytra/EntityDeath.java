@@ -1,6 +1,6 @@
 /**
  * mpElytra
- * Copyright © 2019 Mikołaj Parczewski
+ * Copyright © 2020 Mikołaj Parczewski
  */
 
 package me.mparczewski.mpElytra;
